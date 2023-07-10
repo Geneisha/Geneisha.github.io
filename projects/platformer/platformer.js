@@ -66,11 +66,11 @@ $(function () {
     // example usage: createCollectable(type, x, y, gravity, bounce)
 
     // "Left" platform collectable
-    createCollectable('database', 380, 500, 20, 0.5)
+    createCollectable('kennedi', 380, 500, 20, 0.5)
     // "Middle" platform collectable 
-    createCollectable('database', 650, 560, 20, 0.5)
+    createCollectable('max', 650, 560, 20, 0.5)
     // "Right" platform collectable
-    createCollectable('database', 950, 560, 20, 0.5)
+    createCollectable('diamond', 950, 560, 20, 0.5)
 
     // TODO 3
     // Create cannons
@@ -79,7 +79,7 @@ $(function () {
     // example usage: createCannon(side, position, delay, width, height)
 
     createCannon('left', 500, 10000)
-    createCannon('right', 700, 5000)
+    createCannon('right', 700, 7000)
     createCannon('right', 500, 5000)
 
 
